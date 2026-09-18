@@ -4,9 +4,8 @@ Le portail répond en HTTP 200 avec une page HTML 404 quand une route est
 inconnue ou mal formée : on ne peut donc PAS se fier au code de retour seul.
 Chaque réponse est vérifiée sur son contenu.
 
-Particularité de l'instance GPS par rapport aux portails du groupe des Eaux
-de Marseille : les routes de consommation exigent le numéro de contrat dans
-le chemin (`.../isContratTelereleve/1234567`).
+Particularité de cette instance : les routes de consommation exigent le
+numéro de contrat dans le chemin (`.../isContratTelereleve/1234567`).
 """
 
 from __future__ import annotations

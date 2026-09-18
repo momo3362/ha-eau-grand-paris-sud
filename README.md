@@ -10,8 +10,6 @@ de bord **Énergie**.
 > Le portail tourne sur la suite **SOMEI Wat.erp « Agence en ligne »**, utilisée
 > par de nombreuses régies d'eau françaises. Le code est donc adaptable à une
 > autre régie en changeant trois constantes — voir [Adapter à une autre régie](#adapter-à-une-autre-régie).
-> Pour la région marseillaise (SEM, SEMM, Vivaigo), la même API est déjà couverte
-> par [EnO33/eaux-marseille-ha](https://github.com/EnO33/eaux-marseille-ha).
 
 ## Ce que ça installe
 
