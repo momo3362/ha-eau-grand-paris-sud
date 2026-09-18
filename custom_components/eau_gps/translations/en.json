@@ -1,0 +1,30 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Eau Grand Paris Sud",
+        "description": "Your abonne-eau.grandparissud.fr customer portal credentials. The contract is detected automatically.\n\n{message}",
+        "data": {
+          "username": "Login (email address)",
+          "password": "Password"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Eau Grand Paris Sud — new password",
+        "description": "The portal refused the connection for {identifiant}. If it requires a password renewal, change it on abonne-eau.grandparissud.fr first, then enter it here.\n\n{message}",
+        "data": {
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "The portal refused the connection — see the details above.",
+      "cannot_connect": "Portal unreachable — see the details above."
+    },
+    "abort": {
+      "already_configured": "This contract is already configured.",
+      "reauth_successful": "Password updated.",
+      "reauth_failed": "Config entry not found."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Eau Grand Paris Sud",
+        "description": "Vos identifiants de l'espace abonné abonne-eau.grandparissud.fr. Le contrat est détecté automatiquement.\n\n{message}",
+        "data": {
+          "username": "Identifiant (adresse e-mail)",
+          "password": "Mot de passe"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Eau Grand Paris Sud — nouveau mot de passe",
+        "description": "Le portail a refusé la connexion de {identifiant}. S'il impose un renouvellement, changez d'abord le mot de passe sur abonne-eau.grandparissud.fr, puis saisissez-le ici.\n\n{message}",
+        "data": {
+          "password": "Mot de passe"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Le portail a refusé la connexion — voir le détail ci-dessus.",
+      "cannot_connect": "Portail injoignable — voir le détail ci-dessus."
+    },
+    "abort": {
+      "already_configured": "Ce contrat est déjà configuré.",
+      "reauth_successful": "Mot de passe mis à jour.",
+      "reauth_failed": "Entrée de configuration introuvable."
+    }
+  }
+}

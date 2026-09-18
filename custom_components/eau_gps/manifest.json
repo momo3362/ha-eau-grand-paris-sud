@@ -1,0 +1,17 @@
+{
+  "domain": "eau_gps",
+  "name": "Eau Grand Paris Sud",
+  "version": "1.0.0",
+  "documentation": "https://github.com/momo3362/ha-eau-grand-paris-sud",
+  "issue_tracker": "https://github.com/momo3362/ha-eau-grand-paris-sud/issues",
+  "codeowners": [
+    "@momo3362"
+  ],
+  "config_flow": true,
+  "dependencies": [
+    "recorder"
+  ],
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "requirements": []
+}
