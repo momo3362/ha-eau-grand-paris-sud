@@ -259,7 +259,13 @@ class EauGpsApi:
                     ),
                 )
                 if essai == 3:
-                    raise
+                    # Identifiants acceptés (tokenAuthentique reçu) : ce 401 vient
+                    # du répartiteur du portail. Erreur passagère, pas une
+                    # réauthentification : HA réessaie seul au prochain cycle.
+                    raise EauGpsError(
+                        "Jeton rejeté par le répartiteur du portail, "
+                        f"nouvel essai plus tard : {err}"
+                    ) from err
                 await asyncio.sleep(2)
 
         if not isinstance(contrat, dict) or not contrat.get("numeroContrat"):
